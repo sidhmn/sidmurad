@@ -11,6 +11,30 @@
 header {
     width: 50%;
     padding: 2% 5%;
+    padding-top: 6%;
+    line-height: 190%;
+}
+
+@font-face {
+    src: url("src/Charley.otf");
+    font-family: Charley;
+}
+
+#sid {
+    font-family: Charley, sans-serif;
+    font-size: calc(70px + 1vw);
+    color: #366045;
+}
+
+@font-face {
+    src: url("src/proximanovasemiboldit.otf");
+    font-family: ProximaNovaSemiBoldItalics;
+}
+
+#murad {
+    font-family: ProximaNovaSemiBoldItalics, sans-serif;
+    color: #79a18a;
+    padding-left: 17% ;
 }
 
 nav {
@@ -48,13 +72,12 @@ main {
 #images {
     width: 70%;
     padding: 2% 0;
-    padding-bottom: 20%;
     margin: auto;
 }
 
 img {
     max-width: 30%;
-    padding: .8%;
+    padding: 1%;
 }
 
 img:hover {
@@ -62,5 +85,11 @@ img:hover {
 }
 
 body {
-    background-image: linear-gradient(#c1e3c1,white);
+    background-image: linear-gradient(#c1e3c1,white,white);
+}
+
+footer {
+    background-color: #788c78;
+    text-align: center;
+    padding: 5% 0;
 }
